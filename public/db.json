@@ -1,0 +1,158 @@
+{
+    "users": [
+  {
+    "id": 1,
+    "name": "Naruto Uzumaki",
+    "email": "naruto@konoha.com",
+    "password": "ramen123"
+  },
+  {
+    "id": 2,
+    "name": "Tanjiro Kamado",
+    "email": "tanjiro@demoncorp.com",
+    "password": "waterbreath"
+  },
+  {
+    "id": 3,
+    "name": "Sasuke Uchiha",
+    "email": "sasuke@konoha.com",
+    "password": "sharingan99"
+  },
+  {
+    "id": 4,
+    "name": "Nezuko Kamado",
+    "email": "nezuko@demoncorp.com",
+    "password": "demonpower"
+  },
+  {
+    "id": 5,
+    "name": "Sakura Haruno",
+    "email": "sakura@konoha.com",
+    "password": "healingarts"
+  }
+]
+,
+    "quizzes": [
+    {
+      "id": 1,
+      "title": "Naruto Trivia Quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Naruto's favorite food?",
+          "options": ["Sushi", "Ramen", "Dango", "Mochi"],
+          "answer": "Ramen"
+        },
+        {
+          "id": 2,
+          "question": "Who is the first Hokage of Konoha?",
+          "options": ["Tobirama Senju", "Hashirama Senju", "Hiruzen Sarutobi", "Minato Namikaze"],
+          "answer": "Hashirama Senju"
+        },
+        {
+          "id": 3,
+          "question": "What is the name of Naruto's mother?",
+          "options": ["Kushina Uzumaki", "Mikoto Uchiha", "Tsunade", "Kurenai"],
+          "answer": "Kushina Uzumaki"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Demon Slayer Quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the name of Tanjiro's sword style?",
+          "options": ["Water Breathing", "Flame Breathing", "Beast Breathing", "Thunder Breathing"],
+          "answer": "Water Breathing"
+        },
+        {
+          "id": 2,
+          "question": "What is Nezuko's demon ability?",
+          "options": ["Regeneration", "Blood Demon Art: Explosion", "Illusions", "Shape Shifting"],
+          "answer": "Blood Demon Art: Explosion"
+        },
+        {
+          "id": 3,
+          "question": "What is the name of the organization fighting demons?",
+          "options": ["Demon Corp", "Hashira", "Demon Slayer Corps", "Kizuki"],
+          "answer": "Demon Slayer Corps"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Advanced Naruto Quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which clan possesses the Sharingan?",
+          "options": ["Uchiha", "Senju", "Hyuga", "Nara"],
+          "answer": "Uchiha"
+        },
+        {
+          "id": 2,
+          "question": "What does the Rasengan require to perform?",
+          "options": ["Hand Seals", "Chakra Manipulation", "Summoning", "Sword"],
+          "answer": "Chakra Manipulation"
+        },
+        {
+          "id": 3,
+          "question": "Who created the Akatsuki organization?",
+          "options": ["Nagato", "Madara", "Obito", "Zetsu"],
+          "answer": "Nagato"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Advanced Demon Slayer Quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Who is the leader of the Demon Slayer Corps?",
+          "options": ["Kagaya Ubuyashiki", "Tengen Uzui", "Kyojuro Rengoku", "Giyu Tomioka"],
+          "answer": "Kagaya Ubuyashiki"
+        },
+        {
+          "id": 2,
+          "question": "What is the special trait of Nichirin swords?",
+          "options": ["Color changes based on the user", "Indestructibility", "Fire Resistance", "Glow in the dark"],
+          "answer": "Color changes based on the user"
+        },
+        {
+          "id": 3,
+          "question": "Which demon is also known as Upper Moon One?",
+          "options": ["Muzan Kibutsuji", "Akaza", "Kokushibo", "Doma"],
+          "answer": "Kokushibo"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Naruto vs Demon Slayer Quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which character uses Water Breathing?",
+          "options": ["Kakashi", "Tanjiro", "Zabuza", "Giyu"],
+          "answer": "Tanjiro"
+        },
+        {
+          "id": 2,
+          "question": "Which series features a Nine-Tailed Fox?",
+          "options": ["Naruto", "Demon Slayer", "Both", "Neither"],
+          "answer": "Naruto"
+        },
+        {
+          "id": 3,
+          "question": "Who fights demons in their respective series?",
+          "options": ["Naruto Characters", "Demon Slayer Characters", "Both", "Neither"],
+          "answer": "Demon Slayer Characters"
+        }
+      ]
+    }
+  ]
+  }
+  

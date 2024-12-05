@@ -1,0 +1,92 @@
+/* Backdrop for blur effect */
+.popup-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(8px);
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Container for the quiz popup */
+  .popup-container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    text-align: center;
+  }
+  
+  /* Quiz Title */
+  .quiz-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #ff6aa6;
+  }
+  
+  /* Question Text */
+  .question-text {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Options */
+  .options button {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    background: #fce4ec;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .options button:hover {
+    background: #ffcce4;
+  }
+  
+  .options button.selected {
+    background: #ff6aa6;
+    color: white;
+  }
+  
+  /* Next Button */
+  .next-button {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background: #ff6aa6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .next-button:disabled {
+    background: #e0e0e0;
+    cursor: not-allowed;
+  }
+  
+  .next-button:hover:not(:disabled) {
+    background: #ff3f8b;
+  }
+  
+  /* Results */
+  .results-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #ff6aa6;
+  }
+  

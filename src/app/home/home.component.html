@@ -1,0 +1,36 @@
+<div *ngIf="isAuthenticated()" class="min-h-screen bg-gradient-to-r from-pink-100 to-blue-200 flex flex-col items-center justify-center text-center p-6 space-y-8">
+  <header class="w-full bg-white shadow-lg py-4 px-6 z-10">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <h1 class="text-4xl font-extrabold text-pink-600 tracking-wide">QuizzyAnime</h1>
+      <nav>
+        <ul class="flex space-x-6 text-pink-600">
+          <li><a href="#" class="hover:text-pink-800">Home</a></li>
+          <li><a href="#" class="hover:text-pink-800">Features</a></li>
+          <li><a href="#" class="hover:text-pink-800">About</a></li>
+          <li><a href="#" class="hover:text-pink-800">Contact</a></li>
+          <li><a href="#" class="hover:text-pink-800"><button (click)="logout()">Logout</button></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="flex-grow flex flex-col items-center justify-center text-center p-6 space-y-6 z-10">
+    <h2 class="text-4xl font-bold text-pink-900 mb-4">Welcome, {{ user?.name || 'Guest' }}!</h2>
+    <p class="text-lg text-pink-700 mb-8">Get ready to enhance your knowledge with some fun quizzes. Let’s start learning!</p>
+
+    <button (click)="toggleQuizPopup()" class="bg-pink-600 text-white px-6 py-3 rounded-full shadow-md hover:bg-pink-700 transition">
+      Start Quiz
+    </button>
+
+    <!-- Quiz Popup with Blur Background -->
+    <div *ngIf="showQuizPopup" class="popup-backdrop">
+      <div class="popup-container">
+        <app-quiz-popup [quiz]="quizzes[0]"></app-quiz-popup>
+      </div>
+    </div>
+  </main>
+
+  <footer class="w-full bg-pink-600 py-4">
+    <p class="text-center text-white">© 2024 QuizzyLearn. All Rights Reserved.</p>
+  </footer>
+</div>
